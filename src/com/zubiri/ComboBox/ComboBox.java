@@ -70,7 +70,7 @@ public class ComboBox extends JFrame {
 		btnCancel.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				comboBox.setSelectedIndex(0);
+				comboBox.setSelectedIndex(DEFAULT_CURSOR);
 				System.out.println("Operación cancelada.");
 			}
 		});
